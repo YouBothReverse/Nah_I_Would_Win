@@ -108,3 +108,15 @@ button:hover{
   filter: drop-shadow(0 0 10px #ffdd57);
   transition: all 0.3s cubic-bezier(.17,.67,.83,.67);
 }
+
+.warning{
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.698);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-family: sans-serif;
+}
